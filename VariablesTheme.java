@@ -1,6 +1,6 @@
 public class VariablesTheme {
     public static void main(String[] args) {
-        System.out.println("1. Создание переменных и вывод их значений на консоль");
+        System.out.println("1. Создание переменных и вывод их значений на консоль:");
         byte screenDiagonal = 19;
         short memory = 500;
         int versionLenovoS = 340;
