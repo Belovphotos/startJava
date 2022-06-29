@@ -54,7 +54,6 @@ public class SayHello {
             }
             return 0;
         }
-
         private static String[][] convertResults(String[] uniqueWords, String[] counts, int count) {
             String[][] result = new String[count][2];
             for (int i = 0; i < count; i++) {
