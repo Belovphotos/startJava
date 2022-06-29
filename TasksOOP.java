@@ -18,9 +18,26 @@ public class TasksOOP {
         tiburon.setColor("black");
         tiburon.setYear(2004);
         System.out.println(tiburon);
+        tiburon.info();
+        System.out.println(tiburon.yearDifference(2022));
+
+
 
         Bike bike = new Bike(2020, "Grey", "Honda");
         System.out.println(bike.getColor() + " " + bike.getModel() + " " + bike.getYear());
+        bike.info();
+        System.out.println(bike.yearDifference(2022));
+
+        Airplane airplane = new Airplane("Boeing", 2005, 40,100000);
+        airplane.getFuel();
+        airplane.fillUp(100.0);
+        airplane.info();
+
+        Airplane airplane1 = new Airplane("Pobeda", 2012,40,100000);
+        airplane1.setYear(2014);
+        airplane1.setLength(45);
+        airplane1.fillUp(100);
+        airplane1.info();
 
 
     }
